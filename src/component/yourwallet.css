@@ -1,0 +1,67 @@
+.wallet-lay{
+    position: fixed;
+    height: 1700px;
+    width: 400px;
+    right: 0px;
+    top: 0px;
+    background-color: white;
+    z-index: 3;
+    padding: 20px;
+}
+.wallet-header-label{
+    background-color: white;
+    width: 100%;
+    border: 0px;
+    text-align: left;
+}
+.header-wallet{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #d1d1d1;
+}
+.btn-close-wallet-pop{
+    background-color: white;
+    border: 0px;
+    font-weight: bold;
+    color: black;
+}
+.btn-close-wallet-pop:hover{
+    color: #2a2a2a;
+    cursor: pointer;
+}
+.balance-title{
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px;
+}
+.your-balance{
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+}
+.your-benefit{
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px;
+}
+.note-wallet{
+    background-color: white;
+    border-bottom: 1px solid #bebebe;
+    padding: 15px;
+    width: 90%;
+    text-align: left;
+}
+.foot-note-wallet{
+    font-size: 12px;
+    text-align: left;
+
+}

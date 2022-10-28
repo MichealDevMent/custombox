@@ -1,0 +1,246 @@
+.sidemenu{
+    position: fixed;
+    margin: 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    top: 120px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.show{
+    display: block;
+}
+
+.submenusizeex {
+    display: none;
+
+}
+.submenusizeex.active {
+    display: block;
+}
+.submenumaterial {
+    display: none;
+
+}
+.submenumaterial.active {
+    display: block;
+}
+.submenubase {
+    display: none;
+
+}
+.submenubase.active {
+    display: block;
+}
+.submenuquantity {
+    display: none;
+
+}
+.submenuquantity.active {
+    display: block;
+}
+.submenutext {
+    display: none;
+
+}
+.submenutext.active {
+    display: block;
+}
+.submenureset {
+    display: none;
+
+}
+.submenureset.active {
+    display: block;
+}
+.spacenull{
+    width: 150px;
+    background-color: white;
+    border:none;
+}
+.size-selection{
+    position: absolute;
+    top:-130px;
+    left:-10px;
+    width: 300px;
+    height: 50px;
+    padding:5px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border:1px solid #e6e6e6;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.side-selection{
+    position: absolute;
+    top:-130px;
+    left:-10px;
+    width: 300px;
+    height: 50px;
+    padding:5px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border:1px solid #cfcfcf;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.side-view{
+    display: none;
+}
+.side-view.active{
+    display: block;
+}
+.purchase-lay{
+    position: absolute;
+    top:-130px;
+    left:810px;
+    width: 700px;
+    height: 50px;
+    padding:5px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border:1px solid #e6e6e6;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.btn-contact-us{
+    padding: 10px;
+    background-color: white;
+    border-radius: 2px;
+    border: 2px solid #3c3c3c;
+    width: 50%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.9s;
+}
+.btn-contact-us:hover{
+    background-color: #3b61ff;
+    color: white;
+    box-shadow: 6px 6px -4px #66666679;
+    border:0px;
+    cursor: pointer;
+}
+.btn-wallet{
+    background-color: white;
+    border: 0px;
+}
+.btn-wallet:hover{
+    cursor:pointer;
+}
+.btn-purchase-us{
+    margin-left: 5px;
+    padding: 10px;
+    background-color: #3b61ff;
+    border-radius: 2px;
+    border: 1px solid white;
+    width: 50%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    transition: 0.9s;
+}
+.btn-purchase-us:hover{
+    background-color: white;
+    color: #4732cd;
+    box-shadow: 6px 6px -4px #66666679;
+    cursor: pointer;
+}
+.box-name-title{
+    font-weight: bold;
+}
+.btn-back-from-side{
+    position: relative;
+    left: -75px;
+    background-color: #4e4ce8;
+    border: 0px;
+    text-align: left;
+    padding:10px;
+    border-radius: 5px;
+    transition: 1s;
+}
+.btn-back-from-side:hover{
+    background-color: #7876eb;
+    cursor: pointer;
+}
+.btn-icon-resize{
+    background-color: transparent;
+    border: 0px;
+    text-align: left;
+}
+.btn-icon-resize{
+    cursor: pointer;
+}
+.walletselect{
+    display: none;
+}
+.walletselect.active{
+    display: block;
+}
+.contactselect{
+    display: none;
+}
+.contactselect.active{
+    display: block;
+}
+.project-func{
+    position: fixed;
+    top:65px;
+    width: 100%;
+    background-color: white;
+    border:1px solid #e6e6e6;
+    height: 40px;
+    padding: 10px;
+}
+.close-lay-contact{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    border: 0px;
+    z-index: 4;
+}
+.close-lay-contact:hover{
+    cursor: pointer;
+}
+.btn-close-wallet-lay{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    border: 0px;
+    z-index: 4;
+}
+.btn-close-wallet-lay:hover{
+    cursor: pointer;
+}
+.close-lay-purchase{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    border: 0px;
+    z-index: 4;
+}
+.close-lay-purchase:hover{
+    cursor: pointer;
+}
+.btn-review-purchase{
+    display: none;
+}
+.btn-review-purchase.active{
+    display: block;
+}

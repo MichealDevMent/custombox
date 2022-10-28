@@ -1,0 +1,83 @@
+.contactus-lay{
+    position: fixed;
+    height: 1700px;
+    width: 400px;
+    right: 0px;
+    top: 0px;
+    background-color: white;
+    z-index: 3;
+    padding: 20px;
+}
+.contactus-header-label{
+    background-color: white;
+    width: 100%;
+    border: 0px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.header-contactus{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #d1d1d1;
+}
+.btn-close-contactus-pop{
+    background-color: white;
+    border: 0px;
+    font-weight: bold;
+    color: black;
+}
+.btn-close-contactus-pop:hover{
+    color: #2a2a2a;
+    cursor: pointer;
+}
+.balance-title{
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px;
+}
+.your-balance{
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+}
+.your-email{
+    width: 90%;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
+.note-contactus{
+    background-color: white;
+    padding: 15px;
+    width: 90%;
+    text-align: left;
+}
+.foot-note-contactus{
+    font-size: 12px;
+    text-align: left;
+
+}
+.btn-send-contact{
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0px;
+}
+.btn-send-contact:hover{
+    cursor: pointer;
+    background-color: rgb(75, 75, 255);
+}

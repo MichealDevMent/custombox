@@ -1,0 +1,59 @@
+.label-quan{
+    background-color: transparent;
+    border: 0px;
+    text-align: left;
+    width: 50%;
+}
+.label-quan3{
+    background-color: transparent;
+    border: 0px;
+    align-items: left;
+    width: 50%;
+}
+.label-quan2{
+    background-color: transparent;
+    border: 0px;
+    text-align: left;
+    width: 100%;
+}
+.label-unit{
+    background-color: transparent;
+    border: 0px;
+    text-align: left;
+    width: 50%;
+}
+.mo-check1{
+    position: absolute;
+    top:120px;
+    left:250px;
+}
+.mo-check2{
+    position: absolute;
+    top:180px;
+    left:250px;
+}
+.mo-check3{
+    position: absolute;
+    top:225px;
+    left:250px;
+}
+.mo-check4{
+    position: absolute;
+    top:280px;
+    left:250px;
+}
+.mo-check5{
+    position: absolute;
+    top:335px;
+    left:250px;
+}
+.mo-check6{
+    position: absolute;
+    top:390px;
+    left:250px;
+}
+.mo-check7{
+    position: absolute;
+    top:445px;
+    left:250px;
+}

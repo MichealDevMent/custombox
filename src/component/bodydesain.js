@@ -1,7 +1,17 @@
 import React from "react";
+import ThreeScene from "./threejs-scene";
+import { SideMenu } from "./sidemenu";
+import {Summary} from './summary';
 
 export const Bodydesain = (props) => {
     return(
-        <h1>Bodydesain</h1>
+        <div>
+            
+            <SideMenu/>
+            {/* <Summary/> */}
+            <br></br>
+            <ThreeScene/>
+        </div>
+        
     )
 }

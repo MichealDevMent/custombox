@@ -1,0 +1,28 @@
+.box-face-desain{
+    text-align: center;
+    padding: 10px;
+    left:300px;
+}
+
+.boxface-desain-ex{
+    margin: 5px;
+    border: 1px solid orangered;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(255, 226, 226);
+    
+}
+
+.boxface-desain-in{
+    margin: 5px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+}

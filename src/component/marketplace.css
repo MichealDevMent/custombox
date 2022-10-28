@@ -1,0 +1,32 @@
+.lay-market{
+    display: none;
+}
+.lay-market.display{
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    background-color: black;
+    border-radius: 5px;
+    display: block;
+    top: 150px;
+    left: 450px;
+
+}
+.btn-market-toggle{
+    position: absolute;
+    top: 30px;
+    left: 730px;
+    background-color: azure;
+    border:1px solid #989898;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 80px;
+    height: 80px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.label-market{
+    color: white;
+    margin: 10PX;
+}

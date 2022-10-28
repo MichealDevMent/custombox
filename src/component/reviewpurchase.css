@@ -1,0 +1,110 @@
+.purchasereview-lay{
+    position: fixed;
+    height: 1700px;
+    width: 400px;
+    right: 0px;
+    top: 0px;
+    background-color: white;
+    z-index: 3;
+    padding: 20px;
+}
+.purchasereview-header-label{
+    background-color: white;
+    width: 100%;
+    border: 0px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.header-purchasereview{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #d1d1d1;
+}
+.btn-close-purchasereview-pop{
+    background-color: white;
+    border: 0px;
+    font-weight: bold;
+    color: black;
+}
+.btn-close-purchasereview-pop:hover{
+    color: #2a2a2a;
+    cursor: pointer;
+}
+.balance-title{
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px;
+}
+.your-balance{
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px;
+}
+.your-email{
+    width: 90%;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
+.note-purchasereview{
+    background-color: white;
+    padding: 15px;
+    width: 90%;
+    text-align: left;
+}
+.foot-note-purchasereview{
+    font-size: 12px;
+    text-align: left;
+
+}
+.btn-send-contact{
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0px;
+}
+.btn-send-contact:hover{
+    cursor: pointer;
+    background-color: rgb(75, 75, 255);
+}
+.purchase-label-size{
+    padding: 5px;
+    padding-left:15px;
+    text-align: left;
+    width: 30%;
+    background-color: white;
+    border: none;
+    font-size: 10px;
+}
+.purchase-label-ti{
+    padding: 5px;
+    text-align: left;
+    width: 70%;
+    background-color: white;
+    border: none;
+    font-size: 10px;
+
+}
+.title-quantity-and-price{
+    padding: 5px;
+    padding-left:10px;
+    text-align: left;
+    width: 100%;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+}

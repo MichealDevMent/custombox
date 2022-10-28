@@ -1,0 +1,11 @@
+.lay-eco{
+    position: fixed;
+    padding:15px;
+    text-align: center;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    left: 110px;
+    background-color: white;
+    width: 300px;
+    top: 130px;
+}

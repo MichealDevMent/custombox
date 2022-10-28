@@ -1,0 +1,81 @@
+.label-info-must{
+    background-color: transparent;
+    border: 0px;
+    width: 80%;
+    align-items: right;
+    text-align: left;
+}
+.label-info-must-icon{
+    background-color: transparent;
+    border: 0px;
+    width: 10%;
+    align-items: left;
+    padding: 10px;
+}
+.btn-new-upload-logo{
+    background-color: transparent;
+    border: 0px;
+    display: none;
+}
+.btn-new-upload-logo.active{
+    display: block;
+}
+.btn-remove-logo{
+    background-color: transparent;
+    border: 0px;
+    display: none;
+}
+.btn-remove-logo.active{
+    display: block;
+}
+.btn-new-upload-logo:hover{
+    text-decoration: underline;
+}
+.btn-remove-logo:hover{
+    text-decoration: underline;
+}
+
+input[type='file'] {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    opacity: 0;
+  }
+
+.img-upload-show{
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    width: 30%;
+    height: 40px;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+}
+.gogo{
+    height: 20px;
+}
+.counter-upload:hover{
+    border: 1px solid #b5c3ff;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+.btn-align-icon.active{
+    width: 50px;
+    font-size: 10px;
+    color: #b5cfff;
+    background-color: transparent;
+    border: 1px solid #b5c1ff;
+}
+.btn-align-icon{
+    width: 50px;
+    font-size: 10px;
+    color: #c1c1c1;
+    background-color: transparent;
+    border: 1px solid #c1c1c1;
+}
+.placement-icon{
+    font-size: 10px;
+}

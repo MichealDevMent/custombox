@@ -1,0 +1,22 @@
+.container{
+    padding:5px;
+    text-align: center;
+}
+.btn{
+    /* margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 30px;
+    transition: 0.4s; */
+}
+
+.btn.active{
+    /* background-color: rgb(255, 203, 203); */
+    border-radius: 5px;
+}

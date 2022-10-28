@@ -1,10 +1,7 @@
 import './App.css';
-import {Greet} from './component/Greet';
-import { Message } from './component/message';
-import { ClickHandler } from './component/ClickHandler';
-import {ParentComponent} from './component/ParentComponent'
-import { Headers } from './component/header';
+import { Navbar } from './component/navbar';
 import { Bodydesain } from './component/bodydesain';
+import React from 'react';
 
 function App() {
   return (
@@ -20,10 +17,9 @@ function App() {
         <Message/>
         <ClickHandler/>
         <ParentComponent /> */}
-        <Headers/>
-        <Bodydesain/>
       </header>
-     
+      <React.Fragment> <Navbar/> </React.Fragment>
+        <Bodydesain/>
     </div>
   );
 }
