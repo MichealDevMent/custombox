@@ -834,13 +834,10 @@ class ThreeScene extends Component{
                 tmesh.rotation.x=54.98
                 tmesh.rotation.z=-40.83
                 tmesh.name = "addtext"+global.textobjectnameurut
-                this.scene.add(tmesh)
-           
-                let objectdrag = [this.tmesh]
-
+                let objectdrag = [tmesh]
                 this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
                 this.dControl.activate();
-               
+                this.scene.add(tmesh)
             });
 
             global.doaddtext = false
@@ -865,6 +862,10 @@ class ThreeScene extends Component{
                 tmesh.rotation.x=54.98
                 tmesh.rotation.z=-40.83
                 tmesh.name = "addtext"+global.textobjectnameurut;
+
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
             
@@ -882,7 +883,12 @@ class ThreeScene extends Component{
                 tmesh2.position.set(global.htextSub,2.39,global.vtextSub)
                 tmesh2.rotation.x=54.98
                 tmesh2.rotation.z=-40.83
-                tmesh2.name = "addtextsub"+global.textobjectnameurutSub
+                tmesh2.name = "addtextsub"+global.textobjectnameurutSub;
+
+                let objectdrag = [tmesh2]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
+
                 this.scene.add(tmesh2)
             });
            
@@ -907,7 +913,11 @@ class ThreeScene extends Component{
                 tmesh.position.set(global.htextSub,2.39,global.vtextSub)
                 tmesh.rotation.x=54.98
                 tmesh.rotation.z=-40.83
-                tmesh.name = "addtext"+global.textobjectnameurut
+                tmesh.name = "addtext"+global.textobjectnameurut;
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
+
                 this.scene.add(tmesh)
             });
             let selectfont2;
@@ -925,7 +935,11 @@ class ThreeScene extends Component{
                 tmesh2.position.set(global.htextSub,2.39,global.vtextSub)
                 tmesh2.rotation.x=54.98
                 tmesh2.rotation.z=-40.83
-                tmesh2.name = "addtextsub"+global.textobjectnameurut
+                tmesh2.name = "addtextsub"+global.textobjectnameurut;
+
+                let objectdrag = [tmesh2]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh2)
             });
            
@@ -951,6 +965,9 @@ class ThreeScene extends Component{
                 tmesh.rotation.x=54.98
                 tmesh.rotation.z=-40.83
                 tmesh.name = "addtext"+global.textobjectnameurut
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
             let selectfont2;
@@ -969,6 +986,9 @@ class ThreeScene extends Component{
                 tmesh2.rotation.x=54.98
                 tmesh2.rotation.z=-40.83
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
+                let objectdrag = [tmesh2]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh2)
             });
            
@@ -993,7 +1013,10 @@ class ThreeScene extends Component{
                 tmesh.position.set(global.htextSub,2.39,global.vtextSub)
                 tmesh.rotation.x=54.98
                 tmesh.rotation.z=-40.83
-                tmesh.name = "addtext"+global.textobjectnameurut
+                tmesh.name = "addtext"+global.textobjectnameurut;
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
             let selectfont2;
@@ -1012,6 +1035,9 @@ class ThreeScene extends Component{
                 tmesh2.rotation.x=54.98
                 tmesh2.rotation.z=-40.83
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
+                let objectdrag = [tmesh2]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh2)
             });
            
@@ -1036,6 +1062,9 @@ class ThreeScene extends Component{
                 tmesh.position.set(global.htextSub,global.vtextSub,-1.50)
                 tmesh.rotation.y=3.12
                 tmesh.name = "addtext"+global.textobjectnameurut
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
            
@@ -1059,6 +1088,9 @@ class ThreeScene extends Component{
                 tmesh.position.set(global.htext,global.vtext,-1.50)
                 tmesh.rotation.y=3.11
                 tmesh.name = "addtext"+global.textobjectnameurut
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
             let selectfont2;
@@ -1075,6 +1107,9 @@ class ThreeScene extends Component{
                 tmesh2.position.set(global.htextSub,global.vtextSub,-1.50)
                 tmesh2.rotation.y=3.11
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
+                let objectdrag = [tmesh2]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh2)
             });
            
@@ -1098,6 +1133,9 @@ class ThreeScene extends Component{
                 tmesh.position.set(global.htext,global.vtext,-1.55)
                 tmesh.rotation.y=3.11
                 tmesh.name = "addtext"+global.textobjectnameurut
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
             let selectfont2;
@@ -1114,6 +1152,9 @@ class ThreeScene extends Component{
                 tmesh2.position.set(global.htextSub,global.vtextSub,-1.50)
                 tmesh2.rotation.y=3.11
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
+                let objectdrag = [tmesh2]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh2)
             });
            
@@ -1138,6 +1179,9 @@ class ThreeScene extends Component{
                 tmesh.position.set(global.htext,global.vtext,-1.50)
                 tmesh.rotation.y=3.11
                 tmesh.name = "addtext"+global.textobjectnameurut
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
             let selectfont2;
@@ -1154,6 +1198,9 @@ class ThreeScene extends Component{
                 tmesh2.position.set(global.htextSub,global.vtextSub,-1.50)
                 tmesh2.rotation.y=3.11
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
+                let objectdrag = [tmesh2]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh2)
             });
            
@@ -1177,6 +1224,9 @@ class ThreeScene extends Component{
                 tmesh.position.set(global.htext,global.vtext,-1.50)
                 tmesh.rotation.y=3.11
                 tmesh.name = "addtext"+global.textobjectnameurut
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
             let selectfont2;
@@ -1193,6 +1243,9 @@ class ThreeScene extends Component{
                 tmesh2.position.set(global.htextSub,global.vtextSub,-1.50)
                 tmesh2.rotation.y=3.11
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
+                let objectdrag = [tmesh2]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh2)
             });
            
@@ -1215,6 +1268,9 @@ class ThreeScene extends Component{
                 let tmesh = new THREE.Mesh(tGeo,tmat);
                 tmesh.position.set(global.htextSub,global.vtextSub,1.58)
                 tmesh.name = "addtext"+global.textobjectnameurut
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
         
@@ -1237,6 +1293,9 @@ class ThreeScene extends Component{
                 let tmesh = new THREE.Mesh(tGeo,tmat);
                 tmesh.position.set(global.htext,global.vtext,1.58)
                 tmesh.name = "addtext"+global.textobjectnameurut
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
             let selectfont2;
@@ -1252,6 +1311,9 @@ class ThreeScene extends Component{
                 let tmesh2 = new THREE.Mesh(tGeo2,tmat2);
                 tmesh2.position.set(global.htextSub,global.vtextSub,1.58)
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
+                let objectdrag = [tmesh2];
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh2)
             });
         
@@ -1274,6 +1336,9 @@ class ThreeScene extends Component{
                 let tmesh = new THREE.Mesh(tGeo,tmat);
                 tmesh.position.set(global.htext,global.vtext,1.58)
                 tmesh.name = "addtext"+global.textobjectnameurut
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
             let selectfont2;
@@ -1289,6 +1354,9 @@ class ThreeScene extends Component{
                 let tmesh2 = new THREE.Mesh(tGeo2,tmat2);
                 tmesh2.position.set(global.htextSub,global.vtextSub,1.58)
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
+                let objectdrag = [tmesh2]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh2)
             });
         
@@ -1312,6 +1380,9 @@ class ThreeScene extends Component{
                 let tmesh = new THREE.Mesh(tGeo,tmat);
                 tmesh.position.set(global.htext,global.vtext,1.58)
                 tmesh.name = "addtext"+global.textobjectnameurut
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
             let selectfont2;
@@ -1327,6 +1398,9 @@ class ThreeScene extends Component{
                 let tmesh2 = new THREE.Mesh(tGeo2,tmat2);
                 tmesh2.position.set(global.htextSub,global.vtextSub,1.58)
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
+                let objectdrag = [tmesh2]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh2)
             });
         
@@ -1349,6 +1423,9 @@ class ThreeScene extends Component{
                 let tmesh = new THREE.Mesh(tGeo,tmat);
                 tmesh.position.set(global.htext,global.vtext,1.58)
                 tmesh.name = "addtext"+global.textobjectnameurut
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
             let selectfont2;
@@ -1364,6 +1441,9 @@ class ThreeScene extends Component{
                 let tmesh2 = new THREE.Mesh(tGeo2,tmat2);
                 tmesh2.position.set(global.htextSub,global.vtextSub,1.58)
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
+                let objectdrag = [tmesh2]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh2)
             });
         
@@ -1388,6 +1468,9 @@ class ThreeScene extends Component{
                 tmesh.position.set(1.55,global.vtext,global.htext)
                 tmesh.rotation.y=1.6
                 tmesh.name = "addtext"+global.textobjectnameurut
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
         
@@ -1411,6 +1494,9 @@ class ThreeScene extends Component{
                 tmesh.position.set(1.55,global.vtext,global.htext)
                 tmesh.rotation.y=1.6
                 tmesh.name = "addtext"+global.textobjectnameurut
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
             let selectfont2;
@@ -1427,6 +1513,9 @@ class ThreeScene extends Component{
                 tmesh2.position.set(1.55,global.vtextSub,global.htextSub)
                 tmesh2.rotation.y=1.6
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
+                let objectdrag = [tmesh2]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh2)
             });
         
@@ -1450,6 +1539,9 @@ class ThreeScene extends Component{
                 tmesh.position.set(1.55,global.vtext,global.htext)
                 tmesh.rotation.y=1.6
                 tmesh.name = "addtext"+global.textobjectnameurut
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
             let selectfont2;
@@ -1466,6 +1558,9 @@ class ThreeScene extends Component{
                 tmesh2.position.set(1.55,global.vtextSub,global.htextSub)
                 tmesh2.rotation.y=1.6
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
+                let objectdrag = [tmesh2]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh2)
             });
         
@@ -1490,6 +1585,9 @@ class ThreeScene extends Component{
                 tmesh.position.set(1.55,global.vtext,global.htext)
                 tmesh.rotation.y=1.6
                 tmesh.name = "addtext"+global.textobjectnameurut
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
             let selectfont2;
@@ -1506,6 +1604,9 @@ class ThreeScene extends Component{
                 tmesh2.position.set(1.55,global.vtextSub,global.htextSub)
                 tmesh2.rotation.y=1.6
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
+                let objectdrag = [tmesh2]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh2)
             });
         
@@ -1529,6 +1630,9 @@ class ThreeScene extends Component{
                 tmesh.position.set(1.55,global.vtext,global.htext)
                 tmesh.rotation.y=1.6
                 tmesh.name = "addtext"+global.textobjectnameurut
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
             let selectfont2;
@@ -1545,6 +1649,9 @@ class ThreeScene extends Component{
                 tmesh2.position.set(1.55,global.vtextSub,global.htextSub)
                 tmesh2.rotation.y=1.6
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
+                let objectdrag = [tmesh2]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh2)
             });
         
@@ -1569,6 +1676,9 @@ class ThreeScene extends Component{
                 tmesh.position.set(-1.52,global.vtextSub,global.htextSub)
                 tmesh.rotation.y=-1.6
                 tmesh.name = "addtext"+global.textobjectnameurut
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
         
@@ -1592,6 +1702,9 @@ class ThreeScene extends Component{
                 tmesh.position.set(-1.52,global.vtext,global.htext)
                 tmesh.rotation.y=-1.6
                 tmesh.name = "addtext"+global.textobjectnameurut
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
             let selectfont2;
@@ -1608,6 +1721,9 @@ class ThreeScene extends Component{
                 tmesh2.position.set(-1.52,global.vtextSub,global.htextSub)
                 tmesh2.rotation.y=-1.6
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
+                let objectdrag = [tmesh2]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh2)
             });
         
@@ -1631,6 +1747,9 @@ class ThreeScene extends Component{
                 tmesh.position.set(-1.52,global.vtext,global.htext)
                 tmesh.rotation.y=-1.6
                 tmesh.name = "addtext"+global.textobjectnameurut
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
             let selectfont2;
@@ -1647,6 +1766,9 @@ class ThreeScene extends Component{
                 tmesh2.position.set(-1.52,global.vtextSub,global.htextSub)
                 tmesh2.rotation.y=-1.6
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
+                let objectdrag = [tmesh2]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh2)
             });
         
@@ -1671,6 +1793,9 @@ class ThreeScene extends Component{
                 tmesh.position.set(-1.52,global.vtext,global.htext)
                 tmesh.rotation.y=-1.6
                 tmesh.name = "addtext"+global.textobjectnameurut
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
             let selectfont2;
@@ -1687,6 +1812,9 @@ class ThreeScene extends Component{
                 tmesh2.position.set(-1.52,global.vtextSub,global.htextSub)
                 tmesh2.rotation.y=-1.6
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
+                let objectdrag = [tmesh2]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh2)
             });
         
@@ -1710,6 +1838,9 @@ class ThreeScene extends Component{
                 tmesh.position.set(-1.52,global.vtext,global.htext)
                 tmesh.rotation.y=-1.6
                 tmesh.name = "addtext"+global.textobjectnameurut
+                let objectdrag = [tmesh]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh)
             });
             let selectfont2;
@@ -1726,6 +1857,9 @@ class ThreeScene extends Component{
                 tmesh2.position.set(-1.52,global.vtextSub,global.htextSub)
                 tmesh2.rotation.y=-1.6
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
+                let objectdrag = [tmesh2]
+                this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
+                this.dControl.activate();
                 this.scene.add(tmesh2)
             });
         
