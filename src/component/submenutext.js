@@ -101,6 +101,7 @@ export function SubMenuText(){
         settoogleshowsharedlay('inactive');
         global.textobjectnameurut = global.textobjectnameurut+1;
         global.textobjectnameurutSub = global.textobjectnameurutSub + 1;
+
         setlistoftext([...listoftext , {
             id:global.textobjectnameurut,
             side:global.facebox ,
