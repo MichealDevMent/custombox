@@ -467,7 +467,7 @@ class ThreeScene extends Component{
                     this.materialshape1 = new THREE.MeshBasicMaterial( {color: 0xffffff , map : shape1,transparent:true, side: THREE.DoubleSide} );
                     this.planeshape1 = new THREE.Mesh( this.geometryshape1, this.materialshape1 );
                     this.planeshape1.position.set(0,1,-1.53);
-                    this.planeshape1.rotation.y = 15.78;
+                    this.planeshape1.rotation.y = 15.7;
                     // this.planeshape1.rotation.z = 54.98;
                     this.planeshape1.name = "shape"+global.listshapeurut
                     this.scene.add( this.planeshape1 );
@@ -490,7 +490,7 @@ class ThreeScene extends Component{
                     this.materialshape1 = new THREE.MeshBasicMaterial( {color: 0xffffff , map : shape1,transparent:true, side: THREE.DoubleSide} );
                     this.planeshape1 = new THREE.Mesh( this.geometryshape1, this.materialshape1 );
                     this.planeshape1.position.set(0,1,1.53);
-                    this.planeshape1.rotation.y = 15.78;
+                    this.planeshape1.rotation.y = 15.7;
                     // this.planeshape1.rotation.z = 54.98;
                     this.planeshape1.name = "shape"+global.listshapeurut
                     this.scene.add( this.planeshape1 );
@@ -590,7 +590,7 @@ class ThreeScene extends Component{
             this.matLogo = new THREE.MeshBasicMaterial( {color: 0xffffff , map : image1, side: THREE.DoubleSide,transparent:true} );
             this.logo = new THREE.Mesh( this.geoLogo, this.matLogo );
             this.logo.position.set(0,1,-1.53);
-            this.logo.rotation.y = 15.78;
+            this.logo.rotation.y = 15.7;
             this.logo.name = "logoFront"
             this.scene.add( this.logo );
             global.doaddlogo = false
@@ -715,7 +715,7 @@ class ThreeScene extends Component{
             this.materialstamp1 = new THREE.MeshBasicMaterial( {color: 0xffffff , map : stamp1,transparent:true, side: THREE.DoubleSide} );
             this.planestamp1 = new THREE.Mesh( this.geometrystamp1, this.materialstamp1 );
             this.planestamp1.position.set(0,1,-1.53);
-            this.planestamp1.rotation.y = 15.78;
+            this.planestamp1.rotation.y = 15.7;
             // this.planestamp1.rotation.z = 15.98;
             this.planestamp1.name = "stamp"+global.liststampurut
             this.scene.add( this.planestamp1 );
@@ -732,7 +732,7 @@ class ThreeScene extends Component{
             this.materialstamp2 = new THREE.MeshBasicMaterial( {color: 0xffffff , map : stamp2,transparent:true, side: THREE.DoubleSide} );
             this.planestamp2 = new THREE.Mesh( this.geometrystamp2, this.materialstamp2 );
             this.planestamp2.position.set(0,1,-1.53);
-            this.planestamp2.rotation.y = 15.78;
+            this.planestamp2.rotation.y = 15.7;
             this.planestamp2.name = "stamp"+global.liststampurut
             this.scene.add( this.planestamp2 );
 
@@ -748,7 +748,7 @@ class ThreeScene extends Component{
             this.materialstamp3 = new THREE.MeshBasicMaterial( {color: 0xffffff , map : stamp3,transparent:true, side: THREE.DoubleSide} );
             this.planestamp3 = new THREE.Mesh( this.geometrystamp3, this.materialstamp3 );
             this.planestamp3.position.set(0,1,-1.53);
-            this.planestamp3.rotation.y = 15.78;
+            this.planestamp3.rotation.y = 15.7;
             this.planestamp3.name = "stamp"+global.liststampurut
             this.scene.add( this.planestamp3 );
 
@@ -1059,8 +1059,8 @@ class ThreeScene extends Component{
                 });
                 let tmat = new THREE.MeshPhongMaterial({color: 0x000000});
                 let tmesh = new THREE.Mesh(tGeo,tmat);
-                tmesh.position.set(global.htextSub,global.vtextSub,-1.50)
-                tmesh.rotation.y=3.12
+                tmesh.position.set(global.htextSub,global.vtextSub,-1.53)
+                tmesh.rotation.y=3.14
                 tmesh.name = "addtext"+global.textobjectnameurut
                 let objectdrag = [tmesh]
                 this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
@@ -1085,8 +1085,8 @@ class ThreeScene extends Component{
                 });
                 let tmat = new THREE.MeshPhongMaterial({color: 0x000000});
                 let tmesh = new THREE.Mesh(tGeo,tmat);
-                tmesh.position.set(global.htext,global.vtext,-1.50)
-                tmesh.rotation.y=3.11
+                tmesh.position.set(global.htext,global.vtext,-1.53)
+                tmesh.rotation.y=3.14
                 tmesh.name = "addtext"+global.textobjectnameurut
                 let objectdrag = [tmesh]
                 this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
@@ -1104,8 +1104,8 @@ class ThreeScene extends Component{
                 });
                 let tmat2 = new THREE.MeshPhongMaterial({color: 0x000000});
                 let tmesh2 = new THREE.Mesh(tGeo2,tmat2);
-                tmesh2.position.set(global.htextSub,global.vtextSub,-1.50)
-                tmesh2.rotation.y=3.11
+                tmesh2.position.set(global.htextSub,global.vtextSub,-1.53)
+                tmesh2.rotation.y=3.14
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
                 let objectdrag = [tmesh2]
                 this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
@@ -1131,7 +1131,7 @@ class ThreeScene extends Component{
                 let tmat = new THREE.MeshPhongMaterial({color: 0x000000});
                 let tmesh = new THREE.Mesh(tGeo,tmat);
                 tmesh.position.set(global.htext,global.vtext,-1.55)
-                tmesh.rotation.y=3.11
+                tmesh.rotation.y=3.14
                 tmesh.name = "addtext"+global.textobjectnameurut
                 let objectdrag = [tmesh]
                 this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
@@ -1149,8 +1149,8 @@ class ThreeScene extends Component{
                 });
                 let tmat2 = new THREE.MeshPhongMaterial({color: 0x000000});
                 let tmesh2 = new THREE.Mesh(tGeo2,tmat2);
-                tmesh2.position.set(global.htextSub,global.vtextSub,-1.50)
-                tmesh2.rotation.y=3.11
+                tmesh2.position.set(global.htextSub,global.vtextSub,-1.53)
+                tmesh2.rotation.y=3.14
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
                 let objectdrag = [tmesh2]
                 this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
@@ -1176,8 +1176,8 @@ class ThreeScene extends Component{
                 });
                 let tmat = new THREE.MeshPhongMaterial({color: 0x000000});
                 let tmesh = new THREE.Mesh(tGeo,tmat);
-                tmesh.position.set(global.htext,global.vtext,-1.50)
-                tmesh.rotation.y=3.11
+                tmesh.position.set(global.htext,global.vtext,-1.53)
+                tmesh.rotation.y=3.14
                 tmesh.name = "addtext"+global.textobjectnameurut
                 let objectdrag = [tmesh]
                 this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
@@ -1195,8 +1195,8 @@ class ThreeScene extends Component{
                 });
                 let tmat2 = new THREE.MeshPhongMaterial({color: 0x000000});
                 let tmesh2 = new THREE.Mesh(tGeo2,tmat2);
-                tmesh2.position.set(global.htextSub,global.vtextSub,-1.50)
-                tmesh2.rotation.y=3.11
+                tmesh2.position.set(global.htextSub,global.vtextSub,-1.53)
+                tmesh2.rotation.y=3.14
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
                 let objectdrag = [tmesh2]
                 this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
@@ -1221,8 +1221,8 @@ class ThreeScene extends Component{
                 });
                 let tmat = new THREE.MeshPhongMaterial({color: 0x000000});
                 let tmesh = new THREE.Mesh(tGeo,tmat);
-                tmesh.position.set(global.htext,global.vtext,-1.50)
-                tmesh.rotation.y=3.11
+                tmesh.position.set(global.htext,global.vtext,-1.53)
+                tmesh.rotation.y=3.14
                 tmesh.name = "addtext"+global.textobjectnameurut
                 let objectdrag = [tmesh]
                 this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
@@ -1240,8 +1240,8 @@ class ThreeScene extends Component{
                 });
                 let tmat2 = new THREE.MeshPhongMaterial({color: 0x000000});
                 let tmesh2 = new THREE.Mesh(tGeo2,tmat2);
-                tmesh2.position.set(global.htextSub,global.vtextSub,-1.50)
-                tmesh2.rotation.y=3.11
+                tmesh2.position.set(global.htextSub,global.vtextSub,-1.53)
+                tmesh2.rotation.y=3.14
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
                 let objectdrag = [tmesh2]
                 this.dControl = new DragControls(objectdrag ,this.camera, this.renderer.domElement);
@@ -2215,7 +2215,7 @@ class ThreeScene extends Component{
                     let tmat = new THREE.MeshPhongMaterial({color: 0x000000});
                     let tmesh = new THREE.Mesh(tGeo,tmat);
                     tmesh.position.set(0.6,1,-1.499)
-                    tmesh.rotation.y=3.11
+                    tmesh.rotation.y=3.14
                     tmesh.name = "text 2 template 1"
                     this.scene.add(tmesh)
                 });
@@ -2312,7 +2312,7 @@ class ThreeScene extends Component{
                     let tmat = new THREE.MeshPhongMaterial({color: 0x000000});
                     let tmesh = new THREE.Mesh(tGeo,tmat);
                     tmesh.position.set(0.6,1,-1.499)
-                    tmesh.rotation.y=3.11
+                    tmesh.rotation.y=3.14
                     tmesh.name = "text 2 template 2"
                     this.scene.add(tmesh)
                 });
@@ -2433,7 +2433,7 @@ class ThreeScene extends Component{
                     let tmat = new THREE.MeshPhongMaterial({color: 0x000000});
                     let tmesh = new THREE.Mesh(tGeo,tmat);
                     tmesh.position.set(0.6,1,-1.499)
-                    tmesh.rotation.y=3.11
+                    tmesh.rotation.y=3.14
                     tmesh.name = "text 2 template 3"
                     this.scene.add(tmesh)
                 });
@@ -2566,7 +2566,7 @@ class ThreeScene extends Component{
                     let tmat = new THREE.MeshPhongMaterial({color: 0x000000});
                     let tmesh = new THREE.Mesh(tGeo,tmat);
                     tmesh.position.set(0.6,1,-1.499)
-                    tmesh.rotation.y=3.11
+                    tmesh.rotation.y=3.14
                     tmesh.name = "text 2 template 4"
                     this.scene.add(tmesh)
                 });
@@ -2688,7 +2688,7 @@ class ThreeScene extends Component{
                     let tmat = new THREE.MeshPhongMaterial({color: 0x000000});
                     let tmesh = new THREE.Mesh(tGeo,tmat);
                     tmesh.position.set(0.6,1,-1.499)
-                    tmesh.rotation.y=3.11
+                    tmesh.rotation.y=3.14
                     tmesh.name = "text 2 template 5"
                     this.scene.add(tmesh)
                 });
@@ -2751,7 +2751,7 @@ class ThreeScene extends Component{
                 this.geometryball2 = new THREE.PlaneGeometry( 0.5, 0.5 );
                 this.materialball2 = new THREE.MeshBasicMaterial( {color: 0xffffff , map : ball2,transparent:true, side: THREE.DoubleSide} );
                 this.planeball2 = new THREE.Mesh( this.geometryball2, this.materialball2 );
-                this.planeball2.position.set(1,1.9,1.50);
+                this.planeball2.position.set(1,1.9,1.53);
                 this.planeball2.rotation.y = 53.4;
                 this.planeball2.visible = true
                 this.planeball2.name = 'ball2 icon template 5'
@@ -2761,7 +2761,7 @@ class ThreeScene extends Component{
                 this.geometryball3 = new THREE.PlaneGeometry( 0.5, 0.5 );
                 this.materialball3 = new THREE.MeshBasicMaterial( {color: 0xffffff , map : ball3,transparent:true, side: THREE.DoubleSide} );
                 this.planeball3 = new THREE.Mesh( this.geometryball3, this.materialball3 );
-                this.planeball3.position.set(1,1.4,1.50);
+                this.planeball3.position.set(1,1.4,1.53);
                 this.planeball3.rotation.y = 53.4;
                 this.planeball3.visible = true
                 this.planeball3.name = 'ball3 icon template 5'
@@ -2821,7 +2821,7 @@ class ThreeScene extends Component{
                 }
                 else if(global.facebox==="Front"){
                     tmesh.position.set(0.6,1,-1.499)
-                    tmesh.rotation.y=3.11
+                    tmesh.rotation.y=3.14
                 }else if(global.facebox==="Back"){
                     tmesh.position.set(-0.6,1,1.499)
                 }else if(global.facebox==="Left"){
@@ -2846,7 +2846,7 @@ class ThreeScene extends Component{
             this.camera.position.x = 0;
             this.camera.position.z = -6.7;
             this.threedeview = false
-            this.camera.rotation.y =-3.15
+            this.camera.rotation.y =-3.14
             this.camera.rotation.x =-0
             this.camera.rotation.z =-0
 
