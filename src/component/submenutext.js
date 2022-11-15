@@ -28,14 +28,14 @@ export function SubMenuText(){
     const [htext,setHText] = useState(0);
     const [vtext,setVText] = useState(0);
     const [sizeText,setSizeText] = useState(0);
-    const [text,setText] = useState('');
+    const [text,setText] = useState('Some Text');
 
     const [htextSub,setHTextSub] = useState(0);
     const [vtextSub,setVTextSub] = useState(0);
     const [sizeTextSub,setSizeTextSub] = useState(0);
     const [textSub,setTextSub] = useState('');
     const [selectedit,setSelectEdit] = useState([]);
-    const [texttypere, settexttypere] = useState(0);
+    const [texttypere, setTexttypere] = useState(0);
 
     const [iseditable,setIsEditable] = useState('Add');
 
@@ -83,21 +83,31 @@ export function SubMenuText(){
         setIsEditable('Add');
         setCurrent(v.id);
         global.addtexttype = v.id;
-        settexttypere(v.id);
+        setTexttypere(v.id);
         setwidtSubText(v.id);
-        if(global.facebox!=="3dview"){
-            if(toogleshowsharedlay==='inactive'){
-                settoogleshowsharedlay('active');
+        setText("Some Text");
+        global.tulisanText = text;
+        addtextdo();
+<<<<<<< HEAD
+=======
+        console.log(v);
+>>>>>>> a7eeef1fb0c73b4f8e2d8298015c82c86c214218
+        // if(global.facebox!=="3dview"){
+        //     if(toogleshowsharedlay==='inactive'){
+        //         settoogleshowsharedlay('active');
           
-            }else{
-                settoogleshowsharedlay('inactive');
-            }
-        }
+        //     }else{
+        //         settoogleshowsharedlay('inactive');
+        //     }
+        // }
 
     }
 
+    
+
+
     function addtextdo(){
-        global.doaddtext = true
+        global.doaddtext = true;
         settoogleshowsharedlay('inactive');
         global.textobjectnameurut = global.textobjectnameurut+1;
         global.textobjectnameurutSub = global.textobjectnameurutSub + 1;
@@ -113,21 +123,23 @@ export function SubMenuText(){
             htextsub:global.htextSub,
             vtextsub:global.vtextSub,
             sizesub:global.sizeTextSub,
-            addtexttype:texttypere
+            addtexttype:global.addtexttype
         }]);
 
     }
 
     function updatetextdo(){
         const typetexts = selectedit.addtexttype;
- 
         var subid = selectedit.id;
         global.removetextnamesub = 'addtextsub'+subid
-        global.isremovetext = true
         global.removetextname = 'addtext'+selectedit.id
-
-        global.doaddtext = true
+        global.isremovetext = true;
+<<<<<<< HEAD
+=======
+        console.log(typetexts);
+>>>>>>> a7eeef1fb0c73b4f8e2d8298015c82c86c214218
         global.addtexttype = typetexts
+        global.doaddtext = true
         settoogleshowsharedlay('inactive');
         global.textobjectnameurut = global.textobjectnameurut + 1;
         global.textobjectnameurutSub = global.textobjectnameurutSub + 1;
@@ -183,6 +195,11 @@ export function SubMenuText(){
 
         setSelectEdit(item);
         global.facebox = item.side
+        
+<<<<<<< HEAD
+=======
+        console.log(item);
+>>>>>>> a7eeef1fb0c73b4f8e2d8298015c82c86c214218
 
     }
 
@@ -217,19 +234,21 @@ export function SubMenuText(){
                     <div className="balance-title">Side : {global.facebox} Face</div>
                     <div className="addpositiontext"></div>
                     <div className="balance-title">Position</div>
-                    <div className="your-balance">H : <input className="input-number" type={'text'} value={htext} onChange={(e)=>{sethvaluetext(e)}}></input> V : <input className="input-number" type={'text'} value={vtext} onChange={(e)=>{setvvaluetext(e)}}></input> Size : <input className="input-number" type={'text'} value={sizeText} onChange={(e)=>{setSizevaluetext(e)}}></input></div>
+                    <div className="your-balance">H : <input className="input-number" type={'number'} id='text_h' value={htext} onChange={(e)=>{sethvaluetext(e)}}></input> V : <input className="input-number" type={'number'} value={vtext} id='text_v' onChange={(e)=>{setvvaluetext(e)}}></input> Size : <input className="input-number" type={'text'} value={sizeText} id='text_size' onChange={(e)=>{setSizevaluetext(e)}}></input></div>
                     <div><button className="captionhv">Zero is Center ex: h 0.1 , v 0.1 , size 0,1</button></div>
                     <div className="your-balance">Text </div>
                     <div className="your-balance"><input className="input-tulisan" type={'text'} value={text}  onChange={(e)=>{setvaluetext(e)}}></input></div>
                     <div className={widtSubText>=2?"addtextmore active":"addtextmore"}>
                         <div className="balance-title">Position</div>
-                        <div className="your-balance">H : <input className="input-number" type={'text'} value={htextSub} onChange={(e)=>{sethvaluetextSub(e)}}></input> V : <input className="input-number" type={'text'} value={vtextSub} onChange={(e)=>{setvvaluetextSub(e)}}></input> Size : <input className="input-number" type={'text'} value={sizeTextSub} onChange={(e)=>{setSizevaluetextSub(e)}}></input></div>
+                        <div className="your-balance">H : <input className="input-number" type={'number'} value={htextSub} id='subtext_h' onChange={(e)=>{sethvaluetextSub(e)}}></input> V : <input className="input-number" type={'number'} value={vtextSub} id='subtext_v' onChange={(e)=>{setvvaluetextSub(e)}}></input> Size : <input className="input-number" type={'text'} value={sizeTextSub} id='subtext_size' onChange={(e)=>{setSizevaluetextSub(e)}}></input></div>
                         <div><button className="captionhv">Zero is Center ex: h 0.1 , v 0.1 , size 0,1</button></div>
                         <div className="your-balance">Text Sub</div>
                         <div className="your-balance"><input className="input-tulisan" type={'text'} value={textSub}  onChange={(e)=>{setvaluetextSub(e)}}></input></div>
                     </div>
                     {
-                        iseditable==='Add'?<div className="foot-note-purchasereview"><button className="btn-send-contact" onClick={()=>{addtextdo()}}>Add</button></div>:<div className="foot-note-purchasereview"><button className="btn-send-contact" onClick={()=>{updatetextdo()}}>Update</button></div>
+                        // iseditable==='Add'?<div className="foot-note-purchasereview"><button className="btn-send-contact" onClick={()=>{addtextdo()}}>Add</button></div>:<div className="foot-note-purchasereview"><button className="btn-send-contact" onClick={()=>{updatetextdo()}}>Update</button></div>
+                        iseditable==='Add'?<div className="foot-note-purchasereview"><button className="btn-send-contact" >Add</button></div>:<div className="foot-note-purchasereview"><button className="btn-send-contact" onClick={()=>{
+                            setText("Some Text"); global.tulisanText = text;updatetextdo()}}>Update</button></div>
                     }
                 </div>
             </div>
