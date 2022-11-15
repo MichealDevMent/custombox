@@ -1059,7 +1059,11 @@ class ThreeScene extends Component{
                 });
                 let tmat = new THREE.MeshPhongMaterial({color: 0x000000});
                 let tmesh = new THREE.Mesh(tGeo,tmat);
+<<<<<<< HEAD
                 tmesh.position.set(global.htext,Number(global.vtext)+1.1,-1.53)
+=======
+                tmesh.position.set(global.htextSub,global.vtextSub,-1.53)
+>>>>>>> a7eeef1fb0c73b4f8e2d8298015c82c86c214218
                 tmesh.rotation.y=3.14
                 tmesh.name = "addtext"+global.textobjectnameurut
                 let objectdrag = [tmesh]
@@ -1085,7 +1089,11 @@ class ThreeScene extends Component{
                 });
                 let tmat = new THREE.MeshPhongMaterial({color: 0x000000});
                 let tmesh = new THREE.Mesh(tGeo,tmat);
+<<<<<<< HEAD
                 tmesh.position.set(global.htext,Number(global.vtext)+1.1,-1.53)
+=======
+                tmesh.position.set(global.htext,global.vtext,-1.53)
+>>>>>>> a7eeef1fb0c73b4f8e2d8298015c82c86c214218
                 tmesh.rotation.y=3.14
                 tmesh.name = "addtext"+global.textobjectnameurut
                 let objectdrag = [tmesh]
@@ -1104,7 +1112,11 @@ class ThreeScene extends Component{
                 });
                 let tmat2 = new THREE.MeshPhongMaterial({color: 0x000000});
                 let tmesh2 = new THREE.Mesh(tGeo2,tmat2);
+<<<<<<< HEAD
                 tmesh2.position.set(global.htextSub,Number(global.vtextSub)+1.1,-1.53)
+=======
+                tmesh2.position.set(global.htextSub,global.vtextSub,-1.53)
+>>>>>>> a7eeef1fb0c73b4f8e2d8298015c82c86c214218
                 tmesh2.rotation.y=3.14
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
                 let objectdrag = [tmesh2]
@@ -1130,7 +1142,11 @@ class ThreeScene extends Component{
                 });
                 let tmat = new THREE.MeshPhongMaterial({color: 0x000000});
                 let tmesh = new THREE.Mesh(tGeo,tmat);
+<<<<<<< HEAD
                 tmesh.position.set(global.htext,Number(global.vtext)+1.1,-1.55)
+=======
+                tmesh.position.set(global.htext,global.vtext,-1.55)
+>>>>>>> a7eeef1fb0c73b4f8e2d8298015c82c86c214218
                 tmesh.rotation.y=3.14
                 tmesh.name = "addtext"+global.textobjectnameurut
                 let objectdrag = [tmesh]
@@ -1149,7 +1165,11 @@ class ThreeScene extends Component{
                 });
                 let tmat2 = new THREE.MeshPhongMaterial({color: 0x000000});
                 let tmesh2 = new THREE.Mesh(tGeo2,tmat2);
+<<<<<<< HEAD
                 tmesh2.position.set(global.htextSub,Number(global.vtextSub)+1.1,-1.53)
+=======
+                tmesh2.position.set(global.htextSub,global.vtextSub,-1.53)
+>>>>>>> a7eeef1fb0c73b4f8e2d8298015c82c86c214218
                 tmesh2.rotation.y=3.14
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
                 let objectdrag = [tmesh2]
@@ -1176,7 +1196,11 @@ class ThreeScene extends Component{
                 });
                 let tmat = new THREE.MeshPhongMaterial({color: 0x000000});
                 let tmesh = new THREE.Mesh(tGeo,tmat);
+<<<<<<< HEAD
                 tmesh.position.set(global.htext,Number(global.vtext)+1.1,-1.53)
+=======
+                tmesh.position.set(global.htext,global.vtext,-1.53)
+>>>>>>> a7eeef1fb0c73b4f8e2d8298015c82c86c214218
                 tmesh.rotation.y=3.14
                 tmesh.name = "addtext"+global.textobjectnameurut
                 let objectdrag = [tmesh]
@@ -1195,7 +1219,11 @@ class ThreeScene extends Component{
                 });
                 let tmat2 = new THREE.MeshPhongMaterial({color: 0x000000});
                 let tmesh2 = new THREE.Mesh(tGeo2,tmat2);
+<<<<<<< HEAD
                 tmesh2.position.set(global.htextSub,Number(global.vtextSub)+1.1,-1.53)
+=======
+                tmesh2.position.set(global.htextSub,global.vtextSub,-1.53)
+>>>>>>> a7eeef1fb0c73b4f8e2d8298015c82c86c214218
                 tmesh2.rotation.y=3.14
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
                 let objectdrag = [tmesh2]
@@ -1221,7 +1249,11 @@ class ThreeScene extends Component{
                 });
                 let tmat = new THREE.MeshPhongMaterial({color: 0x000000});
                 let tmesh = new THREE.Mesh(tGeo,tmat);
+<<<<<<< HEAD
                 tmesh.position.set(global.htext,Number(global.vtext)+1.1,-1.53)
+=======
+                tmesh.position.set(global.htext,global.vtext,-1.53)
+>>>>>>> a7eeef1fb0c73b4f8e2d8298015c82c86c214218
                 tmesh.rotation.y=3.14
                 tmesh.name = "addtext"+global.textobjectnameurut
                 let objectdrag = [tmesh]
@@ -1240,7 +1272,11 @@ class ThreeScene extends Component{
                 });
                 let tmat2 = new THREE.MeshPhongMaterial({color: 0x000000});
                 let tmesh2 = new THREE.Mesh(tGeo2,tmat2);
+<<<<<<< HEAD
                 tmesh2.position.set(global.htextSub,Number(global.vtextSub)+1.1,-1.53)
+=======
+                tmesh2.position.set(global.htextSub,global.vtextSub,-1.53)
+>>>>>>> a7eeef1fb0c73b4f8e2d8298015c82c86c214218
                 tmesh2.rotation.y=3.14
                 tmesh2.name = "addtextsub"+global.textobjectnameurut
                 let objectdrag = [tmesh2]

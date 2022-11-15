@@ -88,6 +88,10 @@ export function SubMenuText(){
         setText("Some Text");
         global.tulisanText = text;
         addtextdo();
+<<<<<<< HEAD
+=======
+        console.log(v);
+>>>>>>> a7eeef1fb0c73b4f8e2d8298015c82c86c214218
         // if(global.facebox!=="3dview"){
         //     if(toogleshowsharedlay==='inactive'){
         //         settoogleshowsharedlay('active');
@@ -130,6 +134,10 @@ export function SubMenuText(){
         global.removetextnamesub = 'addtextsub'+subid
         global.removetextname = 'addtext'+selectedit.id
         global.isremovetext = true;
+<<<<<<< HEAD
+=======
+        console.log(typetexts);
+>>>>>>> a7eeef1fb0c73b4f8e2d8298015c82c86c214218
         global.addtexttype = typetexts
         global.doaddtext = true
         settoogleshowsharedlay('inactive');
@@ -188,6 +196,10 @@ export function SubMenuText(){
         setSelectEdit(item);
         global.facebox = item.side
         
+<<<<<<< HEAD
+=======
+        console.log(item);
+>>>>>>> a7eeef1fb0c73b4f8e2d8298015c82c86c214218
 
     }
 
